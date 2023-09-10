@@ -1,3 +1,7 @@
 BASE:
+  #log等级
+  log_level: "debug"
+  #扩展名
+  log_extension: ".log"
   test:
     url: "http://ihrm-java.itheima.net/api"

@@ -1,1 +1,8 @@
 2023-02-24 00:05:30,120 log_file_demo INFO this is a info
+2023-09-04 19:41:33,983 log_file_demo INFO this is a info
+2023-09-04 19:42:59,207 log_file_demo INFO this is a info
+2023-09-04 19:42:59,207 log_file_demo DEBUG this is a debug
+2023-09-04 19:43:14,574 log_file_demo INFO this is a info
+2023-09-04 19:43:33,560 log_file_demo INFO this is a info
+2023-09-04 19:44:16,543 log_file_demo INFO this is a info
+2023-09-04 19:44:46,387 log_file_demo INFO this is a info

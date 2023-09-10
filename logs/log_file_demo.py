@@ -11,7 +11,7 @@ fh_stream = logging.StreamHandler()
 fh_file = logging.FileHandler("./test.log")
 # 4、设置日志级别
 fh_stream.setLevel(logging.DEBUG)
-fh_file.setLevel(logging.WARNING)
+fh_file.setLevel(logging.DEBUG)
 # 5、定义输出格式
 formatter = logging.Formatter('%(asctime)s %(name)s %(levelname)s %(message)s')
 fh_stream.setFormatter(formatter)

@@ -1,4 +1,7 @@
 import logging
+from config import Conf
+import datetime, os
+from config.Conf import ConfigYaml
 
 # 定义日志级别的映射
 log_l = {
@@ -19,7 +22,7 @@ class Logger:
         self.log_name = log_name
         self.log_level = log_level
 
-    # 3、编写输出控制台或文件
+        # 3、编写输出控制台或文件
         # 设置logger名称
         self.logger = logging.getLogger(self.log_name)
         # 2设置log级别
@@ -39,5 +42,32 @@ class Logger:
             self.logger.addHandler(fh_stream)
             self.logger.addHandler(fh_file)
             # 7、运行输出
-            self.logger.info("this is a info")
-            self.logger.debug("this is a debug")
+            # self.logger.info("this is a info")
+            # self.logger.debug("this is a debug")
+
+
+# 作用：修改控制台路径
+# 1、初始化参数数据
+# 日志文件名称，日志文件级别
+# 日志文件名称 = logs目录 + 当前时间+扩展名
+# log目录
+log_path = Conf.get_log_path()
+# 当前时间
+current_time = datetime.datetime.now().strftime("%Y-%m-%d")
+# 扩展名
+log_extension = ConfigYaml().get_conf_log_extension()
+logfile = os.path.join(log_path, current_time + log_extension)
+# print(logfile)
+# 日志文件级别
+loglevel = ConfigYaml().get_conf_log()
+
+
+# print(loglevel)
+
+# 2、对外方法，初始log工具类，提供其他类使用
+def my_log(log_name=__file__):
+    return Logger(log_file=logfile, log_name=log_name, log_level=loglevel).logger
+
+
+if __name__ == '__main__':
+    my_log().debug("this is a debug")
