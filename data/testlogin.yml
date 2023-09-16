@@ -1,0 +1,26 @@
+
+#登录测试用例
+
+---
+#测试用例名称
+"case_name": "登录成功用例"
+#url地址
+"url": "/sys/login"
+#data
+"data":
+  mobile: "13800000002"
+  password: "888itcast.CN764%..."
+#期望结果
+"expect": '"success": true,"data": "9829dd98-6dcc-41e1-901d-4e434cde36d6"'
+
+---
+#测试用例名称
+"case_name": "登录失败用例"
+#url地址
+"url": "/sys/login"
+#data
+"data":
+  mobile: "test123"
+  password: "11111"
+#期望结果
+"expect": '"success": true,"data": "9829dd98-6dcc-41e1-901d-4e434cde36d6"'

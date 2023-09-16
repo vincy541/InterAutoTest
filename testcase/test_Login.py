@@ -5,14 +5,18 @@
 # 登录
 # 1、导入包
 import requests
+import json
 from utils.RequestsUtil import requests_get
 from utils.RequestsUtil import requests_post
 from utils.RequestsUtil import Request
 from config.Conf import ConfigYaml
+import pytest
+from utils.AssertUtil import AssertUtil
+from common.Base import init_db
 
 
 # 2、定义登录方法
-def login():
+def test_login():
     # 3、定义测试数据
     conf_y = ConfigYaml()
     url_path = conf_y.get_conf_url()
@@ -28,6 +32,22 @@ def login():
     # 5、输出结果
     # print(r.json())
     print(r)
+    # 验证
+    # 返回状态码
+    code = r["code"]
+    AssertUtil().assert_code(code, 200)
+    # 返回body
+    # body = json.dumps(r["body"])
+    # assert '"success": true,"data": "9829dd98-6dcc-41e1-901d-4e434cde36d6"' in body
+    body = r["body"]
+    AssertUtil().assert_in_body(body, '"success": true')
+    # 1、初始化数据库对象
+    conn = init_db("db_1")
+    # 2、查询结果
+    res_db = conn.fetchone("select id,name from users where name='cs14@cs14.com'")
+    print("数据库查询结果", res_db)
+    # 3、验证
+    assert res_db[0] == '4Gm1gM6YTYU'
 
 
 def getSecurity():
@@ -86,5 +106,6 @@ def isCreate():
 
 
 if __name__ == '__main__':
-    login()
+    # login()
     # getSecurity()
+    pytest.main(["-s"])

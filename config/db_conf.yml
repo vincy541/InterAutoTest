@@ -1,0 +1,16 @@
+
+
+#编写相关基本信息
+db_1:
+  db_host: "rockbang.com.cn"
+  db_user: "sss_u"
+  db_password: "S3*Rb!358"
+  db_database: "sss"
+  db_port: "5432"
+
+db_2:
+  db_host: "bo-sandbox.rockbang.com"
+  db_user: "sss_u"
+  db_password: "S3*Rb!358"
+  db_database: "sss"
+  db_port: "5432"
