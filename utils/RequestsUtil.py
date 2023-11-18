@@ -46,17 +46,17 @@ class Request:
     def __init__(self):
         self.log = my_log("Requests")
 
-    def requests_api(self, url, json=None, headers=None, method="get"):
+    def requests_api(self, url, json=None, headers=None, cookies=None, method="get"):
 
         # 1.增加方法的参数，根据参数来验证方法get/post，方法请求
         if method == "get":
             # get请求
             self.log.debug("发送get请求")
-            r = requests.get(url, json=json, headers=headers)
+            r = requests.get(url, json=json, headers=headers, cookies=cookies)
         elif method == "post":
             # post请求
             self.log.debug("发送post请求")
-            r = requests.post(url, json=json, headers=headers)
+            r = requests.post(url, json=json, headers=headers, cookies=cookies)
 
         # 2.重复的内容复制进来
         # 获取结果内容

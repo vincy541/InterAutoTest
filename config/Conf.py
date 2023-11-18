@@ -17,12 +17,19 @@ _data_path = BASE_DIR + os.sep + "data"
 _config_file = _config_path + os.sep + "conff.yml"
 # 定义db_conf.yml文件的路径
 _db_config_file = _config_path + os.sep + "db_conf.yml"
-# 定义logs文件的路径
+# 定义logs目录的路径
 _log_path = BASE_DIR + os.sep + "logs"
+
+# 定义exceldata.xlsx文件的路径
+_excel_data_file = _data_path + os.sep + "testdata.xlsx"
 
 
 def get_db_config_file():
     return _db_config_file
+
+
+def get_excel_data_file():
+    return _excel_data_file
 
 
 def get_config_path():
@@ -54,6 +61,20 @@ class ConfigYaml:
         self.db_config = YamlReader(get_db_config_file()).data()
 
     # 定义方法获取需要信息
+    def get_excel_file(self):
+        """
+        获取测试用例excel名称
+        :return:
+        """
+        return self.config["BASE"]["test"]["case_file"]
+
+    def get_excel_sheet(self):
+        """
+        获取测试用例sheet名称
+        :return:
+        """
+        return self.config["BASE"]["test"]["case_sheet"]
+
     def get_conf_url(self):
         return self.config["BASE"]["test"]["url"]
 
@@ -85,5 +106,7 @@ if __name__ == '__main__':
     # print(conf_read.get_conf_url())
     # print(conf_read.get_conf_log())
     # print(conf_read.get_conf_log_extension())
-    print(conf_read.get_db_config_info("db_1"))
-    print(conf_read.get_db_config_info("db_2"))
+    # print(conf_read.get_db_config_info("db_1"))
+    # print(conf_read.get_db_config_info("db_2"))
+    print(conf_read.get_excel_file())
+    print(conf_read.get_excel_sheet())

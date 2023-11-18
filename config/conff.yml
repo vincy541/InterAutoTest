@@ -5,3 +5,6 @@ BASE:
   log_extension: ".log"
   test:
     url: "http://ihrm-java.itheima.net/api"
+    # url: "https://rockbang.com.cn/api/sss/auth"
+    case_file: "testdata.xlsx"
+    case_sheet: "登录"

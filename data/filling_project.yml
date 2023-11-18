@@ -1,0 +1,75 @@
+id: MPJ231118000011
+name: cs12 api 1118213411
+ownerId: 4GcrWZrTeFN
+agentId: ''
+agentName: ''
+brokerId: ''
+brokerName: ''
+initiationTime: '2023-11-18T16:00:00+0000'
+managerId: SssUser0001
+managerName: admin（超级管理账号）
+quoteManagerId: ''
+quoteManagerName: ''
+productDescription: ''
+payMode: '26'
+remark: ''
+operatorId: ''
+followerList: null
+managerList: []
+quoteManagerList:
+  - SssUser0001
+projectDemandList:
+  - customerItemNo: '3952070'
+    customerSkuId: 4xQXvCTPiPH
+    customerSkuName: freebird pet 12 oz cup
+    disposables: AAA
+    id: ''
+    image: ''
+    maximumDemandQuantity: 2000
+    minimumDemandQuantity: 1000
+    plannedUsage: 1001
+    plannedUsageUnit: 0
+    unitOfMeasure: case
+    status: new
+    customerCodeValue: 3952070/freebird pet 12 oz cup
+    productDescription: 1*1*1
+    projectId: MPJ231118000011
+    disabled: true
+  - customerItemNo: '3960016'
+    customerSkuId: 4xQXz1kXWdd
+    customerSkuName: freebird pet 20 oz pet
+    disposables: AAA
+    id: ''
+    image: ''
+    maximumDemandQuantity: 3000
+    minimumDemandQuantity: 2000
+    plannedUsage: 2001
+    plannedUsageUnit: 0
+    unitOfMeasure: case
+    status: new
+    customerCodeValue: 3960016/freebird pet 20 oz pet
+    productDescription: 2*2*2
+    projectId: MPJ231118000011
+    disabled: true
+projectShippingInfoList:
+  - id: ''
+    shipFromContent: "{\"address\":{\"city\":\"\",\"cityCn\":\"\",\"country\":\"United States\",\"countryCn\":\"美国\",\"district\":\"\",\"districtCn\":\"\",\"exact\":\"都柏林\",\"id\":\"\",\"postCode\":\"31021\",\"province\":\"Georgia\",\"provinceCn\":\"乔治亚\"},\"contact\":{\"email\":\"111@111.com\",\"mobile\":\"1\",\"name\":\"1\"},\"id\":\"4G3AxLvsqqh\",\"name\":\"测试-都柏林\",\"nameCn\":\"测试-都柏林\",\"port\":\"美国(USA)/萨凡纳(SAVANNAH,GA)\",\"selectName\":\"测试-都柏林.31021\",\"wmWarehouseId\":\"4G3AxLvsqqh\"}"
+    shipFromId: 4G3AxLvsqqh
+    shipFromName: 测试-都柏林
+    shipToContent: "{\"address\":{\"city\":\"Texas\",\"cityCn\":\"Texas\",\"country\":\"US\",\"countryCn\":\"US\",\"district\":\"\",\"districtCn\":\"\",\"exact\":\"601 E 7th St\",\"id\":\"\",\"postCode\":\"76102\",\"province\":\"Fort Worth\",\"provinceCn\":\"Fort Worth\"},\"contact\":{\"email\":\"APMailbox@benekeith.com\",\"mobile\":\"12313131\",\"name\":\"Amy\"},\"id\":\"f1edb4964b5f7e9a5ba917b0fbd780f0\",\"name\":\"BEN E KEITH COMPANY\",\"nameCn\":\"BEN E KEITH COMPANY\",\"port\":\"\",\"selectName\":\"BEN E KEITH COMPANY.76102\",\"wmWarehouseId\":\"f1edb4964b5f7e9a5ba917b0fbd780f0\"}"
+    shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+    shipToName: BEN E KEITH COMPANY
+    status: new
+  - id: ''
+    shipFromContent: "{\"address\":{\"city\":\"\",\"cityCn\":\"\",\"country\":\"United States\",\"countryCn\":\"美国\",\"district\":\"\",\"districtCn\":\"\",\"exact\":\"2603 Camino Ramon, Suite 200 San Ramon. CA, 94583\",\"id\":\"\",\"postCode\":\"77060\",\"province\":\"Texas\",\"provinceCn\":\"德克萨斯州\"},\"contact\":{\"email\":\"silver@rockbang.com\",\"mobile\":\"4089608920\",\"name\":\"测试\"},\"id\":\"51fy9WpdvYL\",\"name\":\"hercules-测试\",\"nameCn\":\"hercules-测试\",\"port\":\"美国(USA)/休斯顿(HOUSTON,TX)\",\"selectName\":\"hercules-测试.77060\",\"wmWarehouseId\":\"51fy9WpdvYL\"}"
+    shipFromId: 51fy9WpdvYL
+    shipFromName: hercules-测试
+    shipToContent: "{\"address\":{\"city\":\"California\",\"cityCn\":\"California\",\"country\":\"US\",\"countryCn\":\"US\",\"district\":\"\",\"districtCn\":\"\",\"exact\":\"Rodeo Beach\",\"id\":\"\",\"postCode\":\"94123\",\"province\":\"San Francisco\",\"provinceCn\":\"San Francisco\"},\"contact\":{\"email\":\"14153311540@qq.com\",\"mobile\":\"14153311540\",\"name\":\"小红\"},\"id\":\"7f02cec8ea34a76864d533cdc9994be7\",\"name\":\"Rodeo Beach\",\"nameCn\":\"Rodeo Beach\",\"port\":\"\",\"selectName\":\"Rodeo Beach.94123\",\"wmWarehouseId\":\"7f02cec8ea34a76864d533cdc9994be7\"}"
+    shipToId: 7f02cec8ea34a76864d533cdc9994be7
+    shipToName: Rodeo Beach
+    status: new
+attachmentList: []
+ownerName: CS测试客户12
+status: 0
+stage: 0
+projectId: MPJ231118000011

@@ -1,5 +1,6 @@
 from config.Conf import ConfigYaml
 from utils.PostgresqlUtil import Postgresql
+import json
 
 
 # 1、定义init_db
@@ -15,6 +16,19 @@ def init_db(db_alias):
     conn = Postgresql(host, database, user, password, port)
     print(conn)
     return conn
+
+
+def json_parse(data):
+    """
+    格式化字符，转换json
+    :param data:
+    :return:
+    """
+    # if headers:
+    #     header = json.loads(headers)
+    # else:
+    #     header = headers
+    return json.load(data) if data else data
 
 
 if __name__ == '__main__':
