@@ -4,6 +4,7 @@ from utils.RequestsUtil import Request
 import time
 from common import common
 from utils.YamlUtil import YamlReader
+from utils.AssertUtil import AssertUtil
 
 base_url = "https://rockbang.com.cn/api/sss/auth"  # 替换为实际的API基础URL
 
@@ -53,6 +54,7 @@ def test_create_project():
     # 在测试完成后，可以在这里添加清理操作，例如删除测试项目
 
 
+# 完成「项目信息」任务
 def test_filling_project():
     filling_data = YamlReader("../data/filling_project.yml").data()
     # print(filling_data)
@@ -63,3 +65,26 @@ def test_filling_project():
     request = Request()
     response = request.post(filling_project_url, json=filling_data, cookies=cookie)
     print(response)
+    # 判断「项目信息」任务是否已完成
+    # 1.查询任务详情
+    select_data = {"groupId": "MPJ231118000011"}
+    r = common.task_detail(select_data, cookie)
+    # print(r.json()['content']['taskDetails'][1]['task']['type'])
+    task_type = '0101001001'
+
+    # 2.遍历结果，查找符合条件的任务
+    for task_data in r.json()['content']['taskDetails']:
+        if task_data['task']['type'] == task_type:
+            # 找到匹配的任务，获取任务状态
+            task_status = task_data['task']['status']
+            print("项目信息任务状态为：", task_status)
+            # assert task_status == 6
+            if AssertUtil.assert_body(task_status, task_status, 6):
+                print("成功完成【项目信息】任务")
+            break
+    else:
+        # 如果没有找到匹配的任务
+        print("没有找到项目信息任务")
+
+def test_update_yaml():
+

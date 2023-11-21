@@ -29,3 +29,5 @@ class YamlReader:
             with open(self.yamlf, "rb") as f:
                 self._data_all = list(yaml.safe_load_all(f))
             return self._data_all
+
+    #
