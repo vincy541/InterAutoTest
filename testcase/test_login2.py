@@ -86,4 +86,17 @@ def test_filling_project():
         # 如果没有找到匹配的任务
         print("没有找到项目信息任务")
 
+
 def test_update_yaml():
+    # 读取yaml文件
+    filling_data = YamlReader("../data/filling_project.yml").data()
+
+    new_projectID = 'ABC123'
+    filling_data['projectId'] = new_projectID
+    # 遍历结果，查找符合条件的projectId
+    for task_data in filling_data['projectDemandList']:
+        filling_data['projectDemandList']['projectId']= new_projectID
+        break
+
+
+    YamlReader("../data/filling_project.yml").update_dump(filling_data)

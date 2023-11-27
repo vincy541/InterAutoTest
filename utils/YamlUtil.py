@@ -12,6 +12,7 @@ class YamlReader:
             raise FileNotFoundError("文件不存在")
         self._data = None
         self._data_all = None
+        self._update_data = None
 
     # 3,yaml读取
     # 单个文档读取
@@ -30,4 +31,10 @@ class YamlReader:
                 self._data_all = list(yaml.safe_load_all(f))
             return self._data_all
 
-    #
+    # 更新文档
+    def update_dump(self, yaml_data):
+        # 第一次调用data,读取yaml文档,如果不是,直接返回之前保存的数据
+        if not self._update_data:
+            with open(self.yamlf, "w") as f:
+                self._update_data = yaml.dump(yaml_data, f, default_flow_style=False)
+            return self._update_data
