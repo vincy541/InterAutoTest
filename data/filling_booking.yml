@@ -1,0 +1,198 @@
+after_door: ''
+consignee_id: ''
+goods:
+  - sku_list:
+      - id: 4WFCdHsV2MA
+        name: FREEBIRD PET 32 OZ CUP
+        sku_order_id: 4zrcdcCusEB
+        product_order_id: 4WFCdHsV2MA
+        purchase_order_id: 4zrcdn6f5H9
+        count: 0
+        moq: 250
+        unit: CTNS
+        unit_weight:
+          weight: 234
+          unit: 1000
+          net_weight: 210
+        unit_volume:
+          length: 45
+          width: 84
+          height: 27
+          unit: 1
+          volume: 102060
+          unified_volume: 102060
+        catalog_name: MinMax
+        hs_code: hsFP003
+        actual_total_weight:
+          weight: 58500
+          unit: 1000
+          net_weight: 52500
+        actual_total_volume:
+          length: 45
+          width: 84
+          height: 27
+          unit: 100
+          volume: 25.515
+          unified_volume: 25515000
+        customer_item_no: '3960025'
+        vendor_item_no: FP013
+        expected_quantity: 10
+    po_id: 4zrcdn6f5H9
+    po_code: '890685'
+    file_list: null
+  - sku_list:
+      - id: 4WFDEGWdCJL
+        name: FREEBIRD FLAT LID 107 mm
+        sku_order_id: 4zrcdcCusDp
+        product_order_id: 4WFDEGWdCJL
+        purchase_order_id: 4zrcdn5v5e2
+        count: 0
+        moq: 300
+        unit: CTNS
+        unit_weight:
+          weight: 4.42
+          unit: 1000
+          net_weight: 35.68
+        unit_volume:
+          length: 42
+          width: 35
+          height: 11
+          unit: 1
+          volume: 16170
+          unified_volume: 16170
+        catalog_name: MinMax
+        hs_code: hsffl002
+        actual_total_weight:
+          weight: 1326
+          unit: 1000
+          net_weight: 10704
+        actual_total_volume:
+          length: 42
+          width: 35
+          height: 11
+          unit: 100
+          volume: 4.851
+          unified_volume: 4851000
+        customer_item_no: '3960031'
+        vendor_item_no: ffl002
+        expected_quantity: 10
+    po_id: 4zrcdn5v5e2
+    po_code: '890685'
+    file_list: null
+notify: ''
+packages_numbers: 唛头
+discharge_port: USNYK
+remark: 接口测试
+do_cabinet_time: ''
+charge:
+  freight_charge: PP
+  other_charge: PP
+clerk:
+  name: ''
+  contact: ''
+  id: ''
+actual_receipt_place:
+  exact: ''
+  area_code:
+    - ''
+  country: ''
+  province: ''
+  city: ''
+  post_code: ''
+  district: ''
+receipt_place: CNXIA
+cross_info:
+  weight:
+    weight: 59826
+    unit: 1000
+    net_weight: 63204
+  volume:
+    volume: 30.366
+    length: 0
+    width: 0
+    height: 0
+    unit: 100
+    unified_volume: 0
+loading_port: CNYTN
+destination_port: USNYK
+readiness_time: '2023-12-01T16:00:00.000Z'
+bol_address:
+  exact: ''
+  area_code: null
+  country: ''
+  province: ''
+  city: ''
+  district: ''
+shipper:
+  id: 4L6McsaDyqY
+  name: booking-shipper托运人
+  address:
+    area_code:
+      - CN
+      - CN.07
+      - CN.07.3505
+    country: 中国(China)
+    province: 福建(Fujian)
+    city: 泉州市(Quanzhou Shi)
+    district: ''
+    exact: 测试创建数据同步
+    post_code: '112233'
+  liaison: 联系人
+  contact: '123456789'
+  email: test
+  type_list:
+    - notifier
+    - sender
+  remark: remark1
+consignee:
+  id: 4L1aRtmiF5m
+  name: booking收件人
+  address:
+    area_code:
+      - CN
+      - CN.07
+      - CN.07.3502
+    country: 中国(China)
+    province: 福建(Fujian)
+    city: 厦门市(Xiamen Shi)
+    district: ''
+    exact: Baolong 703B
+    post_code: '361000'
+  liaison: test_user_1
+  contact: '17000000000'
+  email: a@a.com
+  type_list:
+    - sender
+    - addressee
+    - notifier
+    - factory
+  remark: ''
+notifier:
+  id: 4L95ZdMiMN9
+  name: ISF地址CONSOLIDATOR 1
+  address:
+    area_code:
+      - JM
+      - JM.01
+      - JM.01.1305
+    country: 牙买加(Jamaica)
+    province: (Clarendon)
+    city: Aenon Town(Aenon Town)
+    district: ''
+    exact: CONSOLIDATOR 1详细地址
+    post_code: '202365'
+  liaison: aa
+  contact: '13699985885'
+  email: 1test@test.com
+  type_list:
+    - sender
+    - factory
+  remark: 无
+shipper_id: ''
+cabinet:
+  id: ''
+  carrier: 40HQ（excess-1）
+  count: 1
+completed_time: null
+status: ''
+keyId: 52wrcMtL3rM

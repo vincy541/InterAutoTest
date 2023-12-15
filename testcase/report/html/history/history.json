@@ -1,1 +1,1 @@
-{"e74e289d6115a7155493cea255fe26cd":{"statistic":{"failed":0,"broken":1,"skipped":0,"passed":0,"unknown":0,"total":1},"items":[{"uid":"eb0e436f4c2f03fc","status":"broken","statusDetails":"AttributeError: 'AssertUtil' object has no attribute 'log'","time":{"start":1695390763273,"stop":1695390763540,"duration":267}}]}}
+{"3071a392ad7ad896a18a07484722d061":{"statistic":{"failed":0,"broken":0,"skipped":0,"passed":1,"unknown":0,"total":1},"items":[{"uid":"610952a7d85783c9","status":"passed","time":{"start":1701864071509,"stop":1701864073820,"duration":2311}}]}}

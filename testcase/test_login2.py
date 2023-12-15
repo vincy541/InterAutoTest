@@ -36,12 +36,12 @@ def test_create_project():
     }
     # request = Request()
     # response = request.post(create_project_url, json=create_project_data, cookies=cookie)
-    r = common.create_project(create_project_data, cookie)
+    r = common.create_project(create_project_data)
     print(r.json())
     pid = r.json()['content']['data']
     print("项目id为：", pid)
     # 二、查看项目详情
-    r_detail = common.project_detail(pid, cookie)
+    r_detail = common.project_detail(pid)
     pname = r_detail.json()['content']['projectView']['name']
     # print(r_detail.json())
     print("项目名称为：", pname)
@@ -74,7 +74,7 @@ def test_create_project():
     # 五、判断「项目信息」任务是否已完成
     # 1.查询任务详情
     select_data = {"groupId": pid}
-    r = common.task_detail(select_data, cookie)
+    r = common.task_detail(select_data)
     # print(r.json()['content']['taskDetails'][1]['task']['type'])
     task_type = '0101001001'
 

@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"broken","Fri Sep 22 21:52:43 CST 2023","Fri Sep 22 21:52:43 CST 2023","267","testcase","test_Login","","","","测试登录","执行测试登录的结果是test"
+"passed","Wed Dec 06 20:01:11 CST 2023","Wed Dec 06 20:01:13 CST 2023","2311","testcase","test_login2","","","","test_create_project",""
