@@ -19,6 +19,7 @@ class AssertUtil:
         """
         try:
             assert int(code) == int(expected_code)
+            print("任务正常提交")
             return True
         except:
             self.log.error("code error,code is %s,expected_code is %s" % (code, expected_code))

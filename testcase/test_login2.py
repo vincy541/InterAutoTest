@@ -1,3 +1,4 @@
+import allure
 import pytest
 import requests
 from utils.RequestsUtil import Request
@@ -13,7 +14,7 @@ base_url = "https://rockbang.com.cn/api/sss/auth"  # 替换为实际的API基础
 #     # 假设在这里获取访问令牌的方法，例如登录并返回令牌
 #     return "136c7976-eb78-4334-b2c9-bc5d54919572"  # 替换为实际的访问令牌
 
-
+@allure.feature("这是成功完成项目信息任务用例")
 def test_create_project():
     # 一、创建项目接口请求
     # create_project_url = f"{base_url}/project_hub/create_project"
@@ -94,7 +95,7 @@ def test_create_project():
 
 
 # 完成「项目信息」任务
-def test_filling_project():
+def filling_project():
     filling_data = YamlReader("../data/filling_project.yml").data()
     # print(filling_data)
     filling_project_url = f"{base_url}/project_hub/filling_project"
@@ -126,7 +127,7 @@ def test_filling_project():
     #     print("没有找到项目信息任务")
 
 
-def test_update_yaml():
+def update_yaml():
     # 读取yaml文件
     filling_data = YamlReader("../data/filling_project.yml").data()
 

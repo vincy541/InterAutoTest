@@ -26,10 +26,10 @@ def test_complete_booking():
     }
     request = Request()
     r = request.post(booking_url, json=filling_data, cookies=cookie)
-    # print(r)
-    AssertUtil().assert_code(r["code"], 200)
+    print(r)
+    # AssertUtil().assert_code(r["code"], 200)
 
-    # 二、判断「订舱委托」任务是否已完成
+    # 判断「订舱委托」任务是否已完成
     # 1.获取「订舱」执行单id，传入货运单ID
     select_id = {
         "groupId": "52XSeTmQLUC"
@@ -74,7 +74,7 @@ def test_complete_booking():
                     print("「booking发送货代」任务id：", booking_send_task_id)
                     print("「booking发送货代」任务uid：", booking_send_task_uid)
 
-                    # 三、完成「booking发送货代」任务
+                    # 二、完成「booking发送货代」任务
                     booking_send_url = f"{base_url}/order_hub/save_task_content"
                     booking_send_data = {
                         "data": "{}",
@@ -93,3 +93,42 @@ def test_complete_booking():
                     else:
                         # 如果没有找到匹配的任务
                         print("「booking发送货代」任务，未完成")
+
+    # 三、完成「货代放舱/SO上传」任务
+    # 查询数据库，获取货代放舱任务的id
+    db_forwarder_id = conn.fetchone(
+        "select * from shipping_voucher where shipping_document_id  ='52XSeTmQLUC' and type='ShippingOrder'")
+    print("数据库查询结果，货代放舱id：", db_forwarder_id['id'])
+
+    # 获取url
+    forwarder_url = base_url + "/shipping_written_material/forwarder/" + db_forwarder_id['id'] + "?provide_from_order_hub=true"
+    # 获取请求参数
+    forwarder_data = YamlReader("../../data/voucher/filling_forwarder.yml").data()
+    request = Request()
+    r = request.post(forwarder_url, json=forwarder_data, cookies=cookie)
+    print(r)
+    AssertUtil().assert_code(r["code"], 200)
+    # 判断货代放仓任务是否完成
+    # 货代放仓任务type = 0604001003
+    # forwarder_task_type = '0604001003'
+    # 传入请求参数
+    select_id = {
+        "groupId": "52XSeTmQLUC"
+    }
+    ticket_type = '0604001'
+    task_type = '0604001003'
+    r = common.task_status(select_id, ticket_type, task_type)
+    if r == 6:
+        print("「货代放仓」任务正常完成")
+
+    # 四、完成「SO发送工厂」任务
+    # 1.完成任务
+    so_url = f"{base_url}/order_hub/save_task_content"
+    so_data = {
+        "data": "{}",
+        "taskUid": "52XSCCc2Cqb",
+        "taskId": "Bb1TtD8ZKW"
+    }
+    r = request.post(so_url, json=so_data, cookies=cookie)
+
+

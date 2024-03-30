@@ -1,0 +1,82 @@
+[
+    {
+        "purchase_order_id": "4ZBGiP587tj",
+        "product_order_id": "4ZBGiP7m6oQ",
+        "sku_order_id": "SON231103C000150",
+        "sku_id": "4fea1pYKnPH",
+        "quantity": 500,
+        "export_tax": null,
+        "sale_commission": null,
+        "purchase_commission": null,
+        "purchase_cost": null,
+        "remarks": "",
+        "src_fob_price": {
+            "value": "9.8",
+            "currency": "USD"
+        },
+        "src_sale_price": {
+            "value": "14.53",
+            "currency": "USD"
+        }
+    },
+    {
+        "purchase_order_id": "4ZBGiP587tj",
+        "product_order_id": "4ZBGiP6B6KE",
+        "sku_order_id": "SON231103C000143",
+        "sku_id": "4fea1pgrDFm",
+        "quantity": 200,
+        "export_tax": null,
+        "sale_commission": null,
+        "purchase_commission": null,
+        "purchase_cost": null,
+        "remarks": "",
+        "src_fob_price": {
+            "value": "10.15",
+            "currency": "USD"
+        },
+        "src_sale_price": {
+            "value": "16.36",
+            "currency": "USD"
+        }
+    },
+    {
+        "purchase_order_id": "4ZBGiP587tj",
+        "product_order_id": "4ZBGiP6B6KF",
+        "sku_order_id": "SON231103C000144",
+        "sku_id": "4fea1pedELF",
+        "quantity": 1100,
+        "export_tax": null,
+        "sale_commission": null,
+        "purchase_commission": null,
+        "purchase_cost": null,
+        "remarks": "",
+        "src_fob_price": {
+            "value": "7.25",
+            "currency": "USD"
+        },
+        "src_sale_price": {
+            "value": "11.42",
+            "currency": "USD"
+        }
+    },
+    {
+        "purchase_order_id": "4ZBGiP587tj",
+        "product_order_id": "4ZBGiP6YAzf",
+        "sku_order_id": "SON231103C000145",
+        "sku_id": "4fea1pcQFQj",
+        "quantity": 250,
+        "export_tax": null,
+        "sale_commission": null,
+        "purchase_commission": null,
+        "purchase_cost": null,
+        "remarks": "",
+        "src_fob_price": {
+            "value": "4.25",
+            "currency": "USD"
+        },
+        "src_sale_price": {
+            "value": "6.56",
+            "currency": "USD"
+        }
+    }
+]

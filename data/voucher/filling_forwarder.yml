@@ -1,0 +1,14 @@
+file_list: []
+eta: '2023-12-04T16:00:00.000Z'
+etd: '2023-11-30T16:00:00.000Z'
+port_end_time: '2023-12-01T04:00:00.000Z'
+si_cut_time: '2023-12-01T04:00:00.000Z'
+customs_end_time: '2023-12-01T04:00:00.000Z'
+mbl: EGLV149301479712
+vessel: 货代放舱-船舶1号
+voyage_no: 货代放仓-航次编号
+logistics_supplier_id: ''
+scac: EGLV
+logistics_supplier_name: EMC
+at_door_time: '2023-12-11T16:00:00.000Z'
+completed_time: null

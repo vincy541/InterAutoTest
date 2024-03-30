@@ -4,15 +4,15 @@ attachmentList: []
 brokerId: ''
 brokerName: ''
 followerList: null
-initiationTime: 2023-12-06T16:00:00+0000
+initiationTime: 2024-03-30T16:00:00+0000
 managerId: SssUser0001
 managerList: []
 managerName: "admin\uFF08\u8D85\u7EA7\u7BA1\u7406\u8D26\u53F7\uFF09"
-name: cs12 api 1206200111
+name: cs12 api 0330214913
 operatorId: ''
 ownerId: 4GcrWZrTeFN
 ownerName: "CS\u6D4B\u8BD5\u5BA2\u623712"
-payMode: '26'
+payMode: '28'
 productDescription: ''
 projectDemandList:
 - customerCodeValue: 3952070/freebird pet 12 oz cup
@@ -28,7 +28,7 @@ projectDemandList:
   plannedUsage: 1000
   plannedUsageUnit: 0
   productDescription: 1*1*1
-  projectId: MPJ231206000091
+  projectId: MPJ240330000013
   status: new
   unitOfMeasure: case
 - customerCodeValue: 3960016/freebird pet 20 oz pet
@@ -44,7 +44,7 @@ projectDemandList:
   plannedUsage: 1500
   plannedUsageUnit: 0
   productDescription: 2*2*2
-  projectId: MPJ231206000091
+  projectId: MPJ240330000013
   status: new
   unitOfMeasure: case
 - customerCodeValue: 3960025/freebird pet 32 oz cup
@@ -60,7 +60,7 @@ projectDemandList:
   plannedUsage: 2000
   plannedUsageUnit: 0
   productDescription: 3*3*3
-  projectId: MPJ231206000091
+  projectId: MPJ240330000013
   status: new
   unitOfMeasure: case
 - customerCodeValue: 3960018/freebird flat lid 98mm
@@ -76,7 +76,7 @@ projectDemandList:
   plannedUsage: 2500
   plannedUsageUnit: 0
   productDescription: 4*4*4
-  projectId: MPJ231206000091
+  projectId: MPJ240330000013
   status: new
   unitOfMeasure: case
 - customerCodeValue: 3960031/freebird flat lid 107mm
@@ -92,10 +92,10 @@ projectDemandList:
   plannedUsage: 3000
   plannedUsageUnit: 0
   productDescription: 5*5*5
-  projectId: MPJ231206000091
+  projectId: MPJ240330000013
   status: new
   unitOfMeasure: case
-projectId: MPJ231206000091
+projectId: MPJ240330000013
 projectShippingInfoList:
 - id: ''
   shipFromContent: "{\"address\":{\"city\":\"\",\"cityCn\":\"\",\"country\":\"United\
