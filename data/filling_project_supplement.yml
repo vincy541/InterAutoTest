@@ -1,0 +1,602 @@
+projectId: MPJ240625000167
+projectSupplementList:
+  - id: '1805525809391796224'
+    projectProductId: '1805525809341464576'
+    projectProductDemandView:
+      id: '1805525809341464576'
+      customerItemNo: '3952070'
+      customerSkuId: 4xQXvCTPiPH
+      customerSkuName: freebird pet 12 oz cup
+      image: ''
+      disposables: AAA
+      unitOfMeasure: case
+      plannedUsageUnit: 0
+      plannedUsage: 1000
+      minimumDemandQuantity: 1000
+      maximumDemandQuantity: 2000
+      productDescription: 1*1*1
+      projectSupplementList:
+        - id: '1805525809391796224'
+          projectProductId: '1805525809341464576'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: 7f02cec8ea34a76864d533cdc9994be7
+          shipToName: ''
+          minimumStockingQuantity: 1000
+          maximumStockingQuantity: 2000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 1000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+        - id: '1805525809391796225'
+          projectProductId: '1805525809341464576'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+          shipToName: ''
+          minimumStockingQuantity: 1000
+          maximumStockingQuantity: 2000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 1000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+      packagingRequirements: ''
+      referenceLink: ''
+      isDeleted: 0
+      verifySkuViews: null
+    sssItem: ''
+    shipToId: 7f02cec8ea34a76864d533cdc9994be7
+    shipToName: Rodeo Beach
+    minimumStockingQuantity: 1000
+    maximumStockingQuantity: 2000
+    firstPickUpTime: '2024-05-31T16:00:00.000Z'
+    selection: 1
+    plannedUsageUnit: 0
+    plannedUsage: 1000
+    projectId: MPJ240625000167
+    quoteSkuInfos: null
+    index: 0
+  - id: '1805525809391796225'
+    projectProductId: '1805525809341464576'
+    projectProductDemandView:
+      id: '1805525809341464576'
+      customerItemNo: '3952070'
+      customerSkuId: 4xQXvCTPiPH
+      customerSkuName: freebird pet 12 oz cup
+      image: ''
+      disposables: AAA
+      unitOfMeasure: case
+      plannedUsageUnit: 0
+      plannedUsage: 1000
+      minimumDemandQuantity: 1000
+      maximumDemandQuantity: 2000
+      productDescription: 1*1*1
+      projectSupplementList:
+        - id: '1805525809391796224'
+          projectProductId: '1805525809341464576'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: 7f02cec8ea34a76864d533cdc9994be7
+          shipToName: ''
+          minimumStockingQuantity: 1000
+          maximumStockingQuantity: 2000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 1000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+        - id: '1805525809391796225'
+          projectProductId: '1805525809341464576'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+          shipToName: ''
+          minimumStockingQuantity: 1000
+          maximumStockingQuantity: 2000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 1000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+      packagingRequirements: ''
+      referenceLink: ''
+      isDeleted: 0
+      verifySkuViews: null
+    sssItem: ''
+    shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+    shipToName: BEN E KEITH COMPANY
+    minimumStockingQuantity: 1000
+    maximumStockingQuantity: 2000
+    firstPickUpTime: '2024-05-31T16:00:00.000Z'
+    selection: 1
+    plannedUsageUnit: 0
+    plannedUsage: 1000
+    projectId: MPJ240625000167
+    quoteSkuInfos: null
+    index: 1
+  - id: '1805525809391796226'
+    projectProductId: '1805525809341464577'
+    projectProductDemandView:
+      id: '1805525809341464577'
+      customerItemNo: '3960016'
+      customerSkuId: 4xQXz1kXWdd
+      customerSkuName: freebird pet 20 oz pet
+      image: ''
+      disposables: AAA
+      unitOfMeasure: case
+      plannedUsageUnit: 0
+      plannedUsage: 1500
+      minimumDemandQuantity: 1500
+      maximumDemandQuantity: 2500
+      productDescription: 2*2*2
+      projectSupplementList:
+        - id: '1805525809391796226'
+          projectProductId: '1805525809341464577'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: 7f02cec8ea34a76864d533cdc9994be7
+          shipToName: ''
+          minimumStockingQuantity: 1500
+          maximumStockingQuantity: 2500
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 1500
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+        - id: '1805525809391796227'
+          projectProductId: '1805525809341464577'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+          shipToName: ''
+          minimumStockingQuantity: 1500
+          maximumStockingQuantity: 2500
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 1500
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+      packagingRequirements: ''
+      referenceLink: ''
+      isDeleted: 0
+      verifySkuViews: null
+    sssItem: ''
+    shipToId: 7f02cec8ea34a76864d533cdc9994be7
+    shipToName: Rodeo Beach
+    minimumStockingQuantity: 1500
+    maximumStockingQuantity: 2500
+    firstPickUpTime: '2024-05-31T16:00:00.000Z'
+    selection: 1
+    plannedUsageUnit: 0
+    plannedUsage: 1500
+    projectId: MPJ240625000167
+    quoteSkuInfos: null
+    index: 2
+  - id: '1805525809391796227'
+    projectProductId: '1805525809341464577'
+    projectProductDemandView:
+      id: '1805525809341464577'
+      customerItemNo: '3960016'
+      customerSkuId: 4xQXz1kXWdd
+      customerSkuName: freebird pet 20 oz pet
+      image: ''
+      disposables: AAA
+      unitOfMeasure: case
+      plannedUsageUnit: 0
+      plannedUsage: 1500
+      minimumDemandQuantity: 1500
+      maximumDemandQuantity: 2500
+      productDescription: 2*2*2
+      projectSupplementList:
+        - id: '1805525809391796226'
+          projectProductId: '1805525809341464577'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: 7f02cec8ea34a76864d533cdc9994be7
+          shipToName: ''
+          minimumStockingQuantity: 1500
+          maximumStockingQuantity: 2500
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 1500
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+        - id: '1805525809391796227'
+          projectProductId: '1805525809341464577'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+          shipToName: ''
+          minimumStockingQuantity: 1500
+          maximumStockingQuantity: 2500
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 1500
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+      packagingRequirements: ''
+      referenceLink: ''
+      isDeleted: 0
+      verifySkuViews: null
+    sssItem: ''
+    shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+    shipToName: BEN E KEITH COMPANY
+    minimumStockingQuantity: 1500
+    maximumStockingQuantity: 2500
+    firstPickUpTime: '2024-05-31T16:00:00.000Z'
+    selection: 1
+    plannedUsageUnit: 0
+    plannedUsage: 1500
+    projectId: MPJ240625000167
+    quoteSkuInfos: null
+    index: 3
+  - id: '1805525809391796228'
+    projectProductId: '1805525809341464578'
+    projectProductDemandView:
+      id: '1805525809341464578'
+      customerItemNo: '3960025'
+      customerSkuId: 4xQY3DD8fnX
+      customerSkuName: freebird pet 32 oz cup
+      image: ''
+      disposables: AAA
+      unitOfMeasure: case
+      plannedUsageUnit: 0
+      plannedUsage: 2000
+      minimumDemandQuantity: 2000
+      maximumDemandQuantity: 3000
+      productDescription: 3*3*3
+      projectSupplementList:
+        - id: '1805525809391796228'
+          projectProductId: '1805525809341464578'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: 7f02cec8ea34a76864d533cdc9994be7
+          shipToName: ''
+          minimumStockingQuantity: 2000
+          maximumStockingQuantity: 3000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 2000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+        - id: '1805525809391796229'
+          projectProductId: '1805525809341464578'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+          shipToName: ''
+          minimumStockingQuantity: 2000
+          maximumStockingQuantity: 3000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 2000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+      packagingRequirements: ''
+      referenceLink: ''
+      isDeleted: 0
+      verifySkuViews: null
+    sssItem: ''
+    shipToId: 7f02cec8ea34a76864d533cdc9994be7
+    shipToName: Rodeo Beach
+    minimumStockingQuantity: 2000
+    maximumStockingQuantity: 3000
+    firstPickUpTime: '2024-05-31T16:00:00.000Z'
+    selection: 1
+    plannedUsageUnit: 0
+    plannedUsage: 2000
+    projectId: MPJ240625000167
+    quoteSkuInfos: null
+    index: 4
+  - id: '1805525809391796229'
+    projectProductId: '1805525809341464578'
+    projectProductDemandView:
+      id: '1805525809341464578'
+      customerItemNo: '3960025'
+      customerSkuId: 4xQY3DD8fnX
+      customerSkuName: freebird pet 32 oz cup
+      image: ''
+      disposables: AAA
+      unitOfMeasure: case
+      plannedUsageUnit: 0
+      plannedUsage: 2000
+      minimumDemandQuantity: 2000
+      maximumDemandQuantity: 3000
+      productDescription: 3*3*3
+      projectSupplementList:
+        - id: '1805525809391796228'
+          projectProductId: '1805525809341464578'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: 7f02cec8ea34a76864d533cdc9994be7
+          shipToName: ''
+          minimumStockingQuantity: 2000
+          maximumStockingQuantity: 3000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 2000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+        - id: '1805525809391796229'
+          projectProductId: '1805525809341464578'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+          shipToName: ''
+          minimumStockingQuantity: 2000
+          maximumStockingQuantity: 3000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 2000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+      packagingRequirements: ''
+      referenceLink: ''
+      isDeleted: 0
+      verifySkuViews: null
+    sssItem: ''
+    shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+    shipToName: BEN E KEITH COMPANY
+    minimumStockingQuantity: 2000
+    maximumStockingQuantity: 3000
+    firstPickUpTime: '2024-05-31T16:00:00.000Z'
+    selection: 1
+    plannedUsageUnit: 0
+    plannedUsage: 2000
+    projectId: MPJ240625000167
+    quoteSkuInfos: null
+    index: 5
+  - id: '1805525809391796230'
+    projectProductId: '1805525809341464579'
+    projectProductDemandView:
+      id: '1805525809341464579'
+      customerItemNo: '3960018'
+      customerSkuId: 4xQY7QTmq75
+      customerSkuName: freebird flat lid 98mm
+      image: ''
+      disposables: AAA
+      unitOfMeasure: case
+      plannedUsageUnit: 0
+      plannedUsage: 2500
+      minimumDemandQuantity: 2500
+      maximumDemandQuantity: 3500
+      productDescription: 4*4*4
+      projectSupplementList:
+        - id: '1805525809391796230'
+          projectProductId: '1805525809341464579'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: 7f02cec8ea34a76864d533cdc9994be7
+          shipToName: ''
+          minimumStockingQuantity: 2500
+          maximumStockingQuantity: 3500
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 2500
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+        - id: '1805525809391796231'
+          projectProductId: '1805525809341464579'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+          shipToName: ''
+          minimumStockingQuantity: 2500
+          maximumStockingQuantity: 3500
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 2500
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+      packagingRequirements: ''
+      referenceLink: ''
+      isDeleted: 0
+      verifySkuViews: null
+    sssItem: ''
+    shipToId: 7f02cec8ea34a76864d533cdc9994be7
+    shipToName: Rodeo Beach
+    minimumStockingQuantity: 2500
+    maximumStockingQuantity: 3500
+    firstPickUpTime: '2024-05-31T16:00:00.000Z'
+    selection: 1
+    plannedUsageUnit: 0
+    plannedUsage: 2500
+    projectId: MPJ240625000167
+    quoteSkuInfos: null
+    index: 6
+  - id: '1805525809391796231'
+    projectProductId: '1805525809341464579'
+    projectProductDemandView:
+      id: '1805525809341464579'
+      customerItemNo: '3960018'
+      customerSkuId: 4xQY7QTmq75
+      customerSkuName: freebird flat lid 98mm
+      image: ''
+      disposables: AAA
+      unitOfMeasure: case
+      plannedUsageUnit: 0
+      plannedUsage: 2500
+      minimumDemandQuantity: 2500
+      maximumDemandQuantity: 3500
+      productDescription: 4*4*4
+      projectSupplementList:
+        - id: '1805525809391796230'
+          projectProductId: '1805525809341464579'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: 7f02cec8ea34a76864d533cdc9994be7
+          shipToName: ''
+          minimumStockingQuantity: 2500
+          maximumStockingQuantity: 3500
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 2500
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+        - id: '1805525809391796231'
+          projectProductId: '1805525809341464579'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+          shipToName: ''
+          minimumStockingQuantity: 2500
+          maximumStockingQuantity: 3500
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 2500
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+      packagingRequirements: ''
+      referenceLink: ''
+      isDeleted: 0
+      verifySkuViews: null
+    sssItem: ''
+    shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+    shipToName: BEN E KEITH COMPANY
+    minimumStockingQuantity: 2500
+    maximumStockingQuantity: 3500
+    firstPickUpTime: '2024-05-31T16:00:00.000Z'
+    selection: 1
+    plannedUsageUnit: 0
+    plannedUsage: 2500
+    projectId: MPJ240625000167
+    quoteSkuInfos: null
+    index: 7
+  - id: '1805525809391796232'
+    projectProductId: '1805525809341464580'
+    projectProductDemandView:
+      id: '1805525809341464580'
+      customerItemNo: '3960031'
+      customerSkuId: 4xQYR9TUrN3
+      customerSkuName: freebird flat lid 107mm
+      image: ''
+      disposables: AAA
+      unitOfMeasure: case
+      plannedUsageUnit: 0
+      plannedUsage: 3000
+      minimumDemandQuantity: 3000
+      maximumDemandQuantity: 4000
+      productDescription: 5*5*5
+      projectSupplementList:
+        - id: '1805525809391796232'
+          projectProductId: '1805525809341464580'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: 7f02cec8ea34a76864d533cdc9994be7
+          shipToName: ''
+          minimumStockingQuantity: 3000
+          maximumStockingQuantity: 4000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 3000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+        - id: '1805525809391796233'
+          projectProductId: '1805525809341464580'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+          shipToName: ''
+          minimumStockingQuantity: 3000
+          maximumStockingQuantity: 4000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 3000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+      packagingRequirements: ''
+      referenceLink: ''
+      isDeleted: 0
+      verifySkuViews: null
+    sssItem: ''
+    shipToId: 7f02cec8ea34a76864d533cdc9994be7
+    shipToName: Rodeo Beach
+    minimumStockingQuantity: 3000
+    maximumStockingQuantity: 4000
+    firstPickUpTime: '2024-05-31T16:00:00.000Z'
+    selection: 1
+    plannedUsageUnit: 0
+    plannedUsage: 3000
+    projectId: MPJ240625000167
+    quoteSkuInfos: null
+    index: 8
+  - id: '1805525809391796233'
+    projectProductId: '1805525809341464580'
+    projectProductDemandView:
+      id: '1805525809341464580'
+      customerItemNo: '3960031'
+      customerSkuId: 4xQYR9TUrN3
+      customerSkuName: freebird flat lid 107mm
+      image: ''
+      disposables: AAA
+      unitOfMeasure: case
+      plannedUsageUnit: 0
+      plannedUsage: 3000
+      minimumDemandQuantity: 3000
+      maximumDemandQuantity: 4000
+      productDescription: 5*5*5
+      projectSupplementList:
+        - id: '1805525809391796232'
+          projectProductId: '1805525809341464580'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: 7f02cec8ea34a76864d533cdc9994be7
+          shipToName: ''
+          minimumStockingQuantity: 3000
+          maximumStockingQuantity: 4000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 3000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+        - id: '1805525809391796233'
+          projectProductId: '1805525809341464580'
+          projectProductDemandView: null
+          sssItem: ''
+          shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+          shipToName: ''
+          minimumStockingQuantity: 3000
+          maximumStockingQuantity: 4000
+          firstPickUpTime: ''
+          selection: 0
+          plannedUsageUnit: 0
+          plannedUsage: 3000
+          projectId: MPJ240625000167
+          quoteSkuInfos: null
+      packagingRequirements: ''
+      referenceLink: ''
+      isDeleted: 0
+      verifySkuViews: null
+    sssItem: ''
+    shipToId: f1edb4964b5f7e9a5ba917b0fbd780f0
+    shipToName: BEN E KEITH COMPANY
+    minimumStockingQuantity: 3000
+    maximumStockingQuantity: 4000
+    firstPickUpTime: '2024-05-31T16:00:00.000Z'
+    selection: 1
+    plannedUsageUnit: 0
+    plannedUsage: 3000
+    projectId: MPJ240625000167
+    quoteSkuInfos: null
+    index: 9

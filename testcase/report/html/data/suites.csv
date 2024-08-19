@@ -1,2 +1,2 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Sat Mar 30 11:33:48 CST 2024","Sat Mar 30 11:33:50 CST 2024","2550","testcase","test_login2","","","","test_create_project",""
+"passed","Sun Mar 31 15:32:57 CST 2024","Sun Mar 31 15:33:00 CST 2024","2282","testcase","test_login2","","","","test_create_project",""

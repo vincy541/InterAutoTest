@@ -25,11 +25,14 @@ def test_create_project():
     print("时间戳转换为日期时间对象：", formatted_time)
     # url = "https://rockbang.com.cn/api/sss/auth/project_hub/create_project"
     create_project_data = {
-        "operatorId": "",
-        "projectName": "cs12 api" + " " + formatted_time1,
-        "ownerId": "4GcrWZrTeFN",
+        "businessLineType": 1,
         "initiationTime": formatted_time + "T16:00:00.000Z",
-        "managerId": "SssUser0001"
+        "managerId": "SssUser0001",
+        "operatorId": "",
+        "ownerId": "4GcrWZrTeFN",
+        "projectLevel": 100,
+        "projectName": "cs12 api" + " " + formatted_time1,
+        "projectType": 3
     }
     # 获取sid
     cookie = {
@@ -93,6 +96,40 @@ def test_create_project():
         # 如果没有找到匹配的任务
         print("没有找到项目信息任务")
 
+@allure.feature("这是成功完成项目完善任务用例")
+def test_filling_project_supplement():
+    # 获取sid
+    cookie = {
+        "sid": common.get_sid()
+    }
+
+    filling_project_supplement_url = f"{base_url}/project_hub/filling_project_supplement"
+    # 二、查看项目详情
+    filling_project_data = YamlReader("../data/filling_project.yml").data()
+    r_detail = common.project_detail(filling_project_data['projectId'])
+    # print(r_detail.json())
+    # 三、更新 填充「项目信息」的请求参数
+    # 1.读取yaml文件
+    # filling_project_supplement_data = YamlReader("../data/filling_project_supplement.yml").data()
+    # filling_project_supplement_data['projectId'] = pid
+    # filling_data['name'] = pname
+    # filling_data['initiationTime'] = initiationTime
+    # # 2.遍历结果，查找符合条件的projectId
+    # for project_data in filling_data['projectDemandList']:
+    #     project_data['projectId'] = pid
+    #
+    # YamlReader("../data/filling_project.yml").update_dump(filling_data)
+    #
+    # # 四、完成【项目信息】任务
+    # # filling_data = YamlReader("../data/filling_project.yml").data()
+    # # print(filling_data)
+    # filling_project_url = f"{base_url}/project_hub/filling_project"
+    # # cookie = {
+    # #     "sid": common.get_sid()
+    # # }
+    # request = Request()
+    # response = request.post(filling_project_url, json=filling_data, cookies=cookie)
+    # print(response)
 
 # 完成「项目信息」任务
 def filling_project():
@@ -142,3 +179,10 @@ def update_yaml():
     YamlReader("../data/filling_project.yml").update_dump(filling_data)
 
 # def test_complete_quote():
+
+
+def test_get_projectid():
+    # 二、查看项目详情
+    filling_project_data = YamlReader("../data/filling_project.yml").data()
+    r_detail = common.project_detail(filling_project_data['projectId'])
+    print(r_detail)

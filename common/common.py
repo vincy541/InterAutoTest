@@ -5,8 +5,7 @@ base_url = "https://rockbang.com.cn/api/sss/auth"
 
 
 def get_sid():
-    return "e194411f-4d53-4c16-9839-65ef6750b765"
-
+    return "a18f1f8c-1eef-4ee5-8d86-f07ca04d3f87"
 
 # 创建项目
 def create_project(projectdata):
